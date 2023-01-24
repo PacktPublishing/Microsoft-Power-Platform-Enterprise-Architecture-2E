@@ -6,7 +6,7 @@ static void Main(string[] args)
 {
     string url = "https://contoso.crm.dynamics.com";
     string username = "user@contoso.onmicrosoft.com";
-    string password = "Pass@rowd1";
+    string password = "Pass@word1";
     string conn = $@"Url = {url}; AuthType = Office365; UserName = {username}; Password = {password};";
     using (var svc = new CrmServiceClient(conn))
     {
